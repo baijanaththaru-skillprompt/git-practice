@@ -49,3 +49,39 @@ Message should be in present tense. For e.g. setup the initial git project
 ```bash
 git log --oneline
 ```
+
+- Adding remote to our repository
+
+```bash
+git remote add origin <repository_url>
+```
+
+- Check currrent branch
+
+```bash
+git branch
+```
+
+- Rename current branch
+
+```bash
+git branch -M <new_branch_name>
+```
+
+- Push latest changes to the remote
+
+```bash
+git push origin <branch_name>
+```
+
+- Checkout new branch
+
+```bash
+git checkout -b <branch_name>
+```
+
+- Checkout existing branch
+
+```bash
+git checkout <branch_name>
+```
