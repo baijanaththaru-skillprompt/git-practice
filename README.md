@@ -36,6 +36,12 @@ git add <file_or_folder_path>
 git commit -m "<your message>"
 ```
 
+- Amend the last commit message
+
+```bash
+git commit --amend
+```
+
 Message should be in present tense. For e.g. setup the initial git project
 
 - See the logs
